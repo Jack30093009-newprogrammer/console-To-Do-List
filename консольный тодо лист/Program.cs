@@ -15,7 +15,10 @@
 //6 как подпункт 2 ьакже столбик названий пишется само название и открывается блокнот
 using System;
 using System.IO;
+using System.Threading;
 using System.Diagnostics;
+using Microsoft.Toolkit.Uwp.Notifications;
+
 
 
 class Settings
@@ -34,11 +37,11 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Добро пожаловать в КОНСОЛЬНЫЙ To-Do List");
+        Console.WriteLine("Добро пожаловать в КОНСОЛЬНЫЙ To-Do List!");
         Console.WriteLine("Все файлы сохраняются в папку на рабочий стол ToDoFiles!");
 
         Console.WriteLine("");
-        Console.WriteLine("Введите цифру операции:\n1-Создать файл\n2-едактировать файл\n3-Открыть файл");
+        Console.WriteLine("Введите цифру операции:\n1-Создать файл\n2-Редактировать файл\n3-Открыть файл\n4-Поставить задачу (по времени высветиться внизу открыть и закрыть)");
         Console.WriteLine("Цифра операции: ");
 
         int num = Convert.ToInt32(Console.ReadLine());
@@ -94,6 +97,35 @@ class Program
                 string path = @$"C:\Users\serge\Desktop\ToDoFiles\{fileToOpen}.txt";
                 Process.Start("notepad.exe", path);
                 break;
+            case 4:
+                /*1)Спросить во сколько высветить уведомление (год, месяц, день, число, час, минуты)
+                2) если текущее время = времени введенного ползователем вывести уведомление
+                3)в увдомлении прописано открыть заметку (в нашем случае - задача) или кнопка закрыть нахуй уведомление*/
+                Console.WriteLine("Во сколько высветить уведомление об открытии задачи? Формат - гмдчмс");
+                int year = Convert.ToInt32(Console.ReadLine());
+                int month = Convert.ToInt32(Console.ReadLine());
+                int day = Convert.ToInt32(Console.ReadLine());
+                int hour = Convert.ToInt32(Console.ReadLine());
+                int min = Convert.ToInt32(Console.ReadLine());
+                int sec = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine($"Итак, дата заметки - {year} год, {month}-ый месяц, {day}-ый день, {hour}-ый час, {min}-ая минута, {sec}-ая секунда!");
+
+                //создание даты
+                //пихаем уведомление
+
+                
+                Console.WriteLine("Введите текст в уведомление:");
+                string textOfNotification = Console.ReadLine();
+                DateTime now = DateTime.Now;
+                DateTime notificDate = new DateTime(year, month, day, hour, min, sec);
+                while (now < notificDate)
+                {
+                    Thread.Sleep(100);
+                }
+                new ToastContentBuilder()
+                        .AddText(textOfNotification)
+                        .Show();
+                break;
 
         
         }
@@ -106,9 +138,8 @@ class Program
 
 /*
     ПРАВКИ
-    1)Уведомления - по времени приходит уведомление справа снизу и 
-возможность скипнуть или открыть ткст файл
+    1)Уведомления toast - добавить копки открыть и закрыть
     2)Цветной текст
     3)повторяющиеся задачи
-    4) залить на гитхаб
+    4)сделать возможность менять папку или создавать новую где угодно
  */

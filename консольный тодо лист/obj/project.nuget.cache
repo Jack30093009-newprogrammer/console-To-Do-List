@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "yQGX2kQlUsI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\serge\\OneDrive\\Desktop\\c# программирование\\консольный тодо лист\\консольный тодо лист\\консольный тодо лист.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\serge\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\microsoft.toolkit.uwp.notifications\\7.1.3\\microsoft.toolkit.uwp.notifications.7.1.3.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.1.0\\system.runtime.compilerservices.unsafe.6.1.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\system.security.accesscontrol\\6.0.1\\system.security.accesscontrol.6.0.1.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\taskscheduler\\2.12.1\\taskscheduler.2.12.1.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.55\\microsoft.windows.sdk.net.ref.10.0.19041.55.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\bin\Debug\net8.0\консольный тодо лист.exe
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\bin\Debug\net8.0\консольный тодо лист.deps.json
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\bin\Debug\net8.0\консольный тодо лист.runtimeconfig.json
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\bin\Debug\net8.0\консольный тодо лист.dll
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\bin\Debug\net8.0\консольный тодо лист.pdb
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\obj\Debug\net8.0\консольный тодо лист.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\obj\Debug\net8.0\консольный тодо лист.AssemblyInfoInputs.cache
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\obj\Debug\net8.0\консольный тодо лист.AssemblyInfo.cs
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\obj\Debug\net8.0\консольный тодо лист.csproj.CoreCompileInputs.cache
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\obj\Debug\net8.0\консольный тодо лист.dll
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\obj\Debug\net8.0\refint\консольный тодо лист.dll
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\obj\Debug\net8.0\консольный тодо лист.pdb
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\obj\Debug\net8.0\консольный тодо лист.genruntimeconfig.cache
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\obj\Debug\net8.0\ref\консольный тодо лист.dll
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\obj\Debug\net8.0\консольный тодо лист.csproj.AssemblyReference.cache
+C:\Users\serge\OneDrive\Desktop\c# программирование\консольный тодо лист\консольный тодо лист\obj\Debug\net8.0\консольный тодо лист.sourcelink.json
